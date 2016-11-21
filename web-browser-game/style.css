@@ -1,0 +1,607 @@
+.badi{
+	background-color:gray;
+	font-size:95%;
+	background-image:url(images/bgbgbg.png);
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
+	margin:auto;
+}
+#register{
+	background:#000;
+	opacity:0.9;
+	border:5px;
+	color:white;
+	position:absolute;
+	border-radius: 10px;
+	right:100px;
+	bottom:100px;
+	height:auto;
+	width:auto;
+}
+#login{
+	background:#000;
+	position:absolute;
+	opacity:0.9;
+	color:white;
+	border-radius: 10px;
+	border:5px;
+	padding-left:75px;
+	top:5px;
+	left:40px;
+	height:5%;
+	width:600px;
+}
+.indexmid
+{
+	position:absolute;
+	top:50%;
+	left:47%;
+}
+.indexmidlabel
+{
+	color:black;
+	font-weight:bold;
+}
+.lgnrgstr{
+	border:0px;
+	padding:5px;
+	border-radius:2px;
+	font-weight:bold;
+	color:white;
+	font-weight:bold;
+	font-size:11px;
+	background-color:#001B35;
+	text-decoration:none;
+}
+.lgnrgstr:hover{
+	border:0px;
+	padding:5px;
+	border-radius:2px;
+	color:#001B35;
+	font-weight:bold;
+	cursor:pointer;
+	background-color:white;
+	text-decoration:none;
+}
+.registerLabel{
+	color:white;
+	font-weight:bold;
+}
+.loginLabel{
+	color:white;
+	font-weight:bold;
+}
+#left{
+	position:absolute;
+	left:0%;
+	top:0%;
+	width:10%;
+	height:100%;
+	background-color:#001B35;
+	font-family: calibri;
+}
+#menu{
+	position:absolute;
+	width:100%;
+	top:23%;
+	height:50%;
+	}
+a.menu{
+	position:absolute;
+	width:100%;
+	height:7%;
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+	letter-spacing: 1px;
+	text-decoration:none;
+	text-align:center;
+}
+a.menu:hover{
+	background-color:white;
+	color:#001B35;
+}
+/*
+a.menu:hover:after{
+	color:white;
+	bottom:50px;
+	padding:10px;
+	border-radius:10px;
+	background-color:black;
+	content: attr(title);
+}
+*/
+a.general{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+}
+a.general:hover{
+	color:#C00;
+}
+#top{
+	position:absolute;
+	top:0%;
+	left:10%;
+	width:83%;
+	height:5%;
+	color:white;
+	background-color:black;
+}
+a.abutton
+{
+	padding:5px;
+	border-radius:2px;
+	background-color:#4CAF50;
+	text-decoration:none;
+}
+a.abutton:visited
+{
+	padding:5px;
+	border-radius:2px;
+	color:black;
+	background-color:#4CAF50;
+	text-decoration:none;
+}
+a.abutton:hover
+{
+	padding:5px;
+	border-radius:2px;
+	color:#4CAF50;
+	background-color:black;
+	text-decoration:none;
+}
+
+.sbutton{
+	border:0px;
+	padding:5px;
+	border-radius:2px;
+	color:white;
+	font-weight:bold;
+	font-size:11px;
+	background-color:#001B35;
+	text-decoration:none;
+}
+.sbutton:hover{
+	border:0px;
+	padding:5px;
+	border-radius:2px;
+	color:white;
+	cursor:pointer;
+	background-color:black;
+	text-decoration:none;
+}
+a.editbutton
+{
+	padding:5px;
+	border-radius:2px;
+	color:white;
+	background-color:#001B35;
+	text-decoration:none;
+}
+a.editbutton:visited
+{
+	padding:5px;
+	border-radius:2px;
+	color:white;
+	background-color:#001B35;
+	text-decoration:none;
+}
+a.editbutton:hover
+{
+	padding:5px;
+	border-radius:2px;
+	color:#001B35;
+	background-color:white;
+	text-decoration:none;
+}
+.welcome{
+	float:left;
+	margin-top:0.4%;
+	margin-left:5%;
+	font-size-adjust:25%;
+}
+#userclock{
+	float:left;
+	margin-top:0.5%;
+	margin-left:20%;
+}
+.energy{
+	float:right;
+	margin-top:0.2%;
+	margin-right:5%;
+}
+#midpolice{
+	position:absolute;
+	opacity:0.9;
+	top:5%;
+	left:10%;
+	width:83%;
+	height:90%;
+	color:black;
+	background-image: url(images/68.jpg);
+	background-color:black;
+	background-size: 83% 85%;
+	background-position:137px 35px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	overflow:auto;
+}
+#midmafia{
+	position:absolute;
+	opacity:0.9;
+	top:5%;
+	left:10%;
+	width:83%;
+	height:90%;
+	color:#001B35;
+	background-image: url(images/mafyoz.jpg);
+	background-color:black;
+	background-size: 83% 85%;
+	background-position:137px 35px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	overflow:auto;
+}
+.mid{
+	margin-top:15%;
+	margin-left:25%;
+}
+.middiv
+{
+	margin-top:20%;
+	margin-left:25%;
+}
+#bottom{
+	position:absolute;
+	bottom:0%;
+	left:10%;
+	width:83%;
+	height:10%;
+	color:white;
+	background-color:black;
+}
+#bottom img{
+	position:absolute;
+	top:5px;
+	left:10px;
+	width:60px;
+	height:53px;
+}
+#areas{
+	opacity:0.50;
+	float:right;
+	position:absolute;
+}
+#areas:hover{
+	opacity:0.75;
+}
+#areas:hover:after{
+	color:white;
+	padding:10px;
+	border-radius:10px;
+	background-color:black;
+	content: attr(title);
+	bottom:90px;
+}
+#usercheck{
+	color:white;
+	padding:10px;
+	right:50px;
+	border-radius:10px;
+	background-color:black;
+	bottom:190px;
+	position:absolute;
+}
+#passcheck{
+	color:white;
+	padding:10px;
+	right:260px;
+	border-radius:10px;
+	background-color:black;
+	bottom:110px;
+	position:absolute;
+}
+#news{
+	position:absolute;
+	top:5px;
+	left:110px;
+	font-weight:bold;
+	font-style:italic;
+	font-size:12px;
+}
+#right{
+	position:absolute;
+	right:0%;
+	top:0%;
+	width:7%;
+	height:100%;
+	background-color:#001B35;
+	text-align:center;
+}
+.midtable
+{
+	opacity:0.8;
+	background-color:black;
+	color:white;
+	border-radius:4px;
+}
+.middiv
+{
+	position:absolute;
+	left:0px;
+	padding:10px;
+	top:-50px;
+	opacity:0.8;
+	background-color:white;
+	color:black;
+	border-radius:4px;
+}
+.msgdiv
+{
+	position:absolute;
+	left:-43px;
+	width:900px;
+	padding:20px;
+	top:0px;
+	opacity:0.8;
+	background-color:white;
+	color:black;
+	border-radius:4px;
+}
+.ruletdiv
+{
+	position:absolute;
+	left:150px;
+	padding:10px;
+	top:100px;
+	opacity:0.8;
+	background-color:white;
+	color:black;
+	border-radius:4px;
+}
+.statsdiv
+{
+	position:absolute;
+	left:350px;
+	padding:10px;
+	top:150px;
+	opacity:0.8;
+	background-color:white;
+	color:black;
+	border-radius:4px;
+}
+a.quests{
+	opacity:0.75;
+}
+a.quests:visited{
+	opacity:0.75;
+}
+a.quests:hover{
+	opacity:1;
+}
+a.quests:hover:after{
+	opacity:1;
+	color:white;
+	padding:20px;
+	left:250px;
+	border-radius:10px;
+	background-color:black;
+	content: attr(title);
+	bottom:190px;
+	position:absolute;
+}
+a.inbox{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+a.inbox:visited{
+	color:gray;
+}
+a.inbox:hover{
+	color:#052CCF;
+}
+.mailicons
+{
+	padding-left:50px;
+}
+.PageTitle
+{
+	text-decoration:none;
+	color:black;
+	font-size:25px;
+}
+#CharacterContent
+{
+	position:relative;
+	margin-top:-15%;
+	margin-left:-20%;
+}
+.character
+{
+	width:100%;
+	float:left;
+	height:auto;
+}
+.character img
+{
+	margin-top:10px;
+	float:left;
+	width:15%;
+	height:35%;
+	border-radius:10px;
+	border:1px solid #CCC;
+	margin-right:10px;
+	padding:5px;
+}
+.CharacterInf 
+{
+	margin-top:10px;
+	width:30%;
+	margin-left:5%;
+	float:left;
+	margin-bottom:20px;
+	height:100px;
+	
+}
+.CharacterInfA
+{
+	margin-top:auto;
+	width:100%;
+	height:65px;
+	float:left;
+}
+.CharacterInfB
+{	margin-top:5%;
+	width:100%;
+	height:30px;
+	float:left;
+}
+.CharacterInfC
+{
+	width:165px;
+	height:30px;
+	float:left;
+	
+}
+.charbutton
+{
+	margin-top:35%;
+	width:100%;
+	height:30px;
+	float:left;
+}
+.inventory
+{
+	margin-top:5%;
+	width:100%;
+	height:30px;
+	float:left;
+	display:none;
+}
+.transport
+{
+	margin-top:5%;
+	width:100%;
+	height:30px;
+	float:left;
+	display:none;
+}
+
+
+.progress-bar {
+position: relative;
+height: 18px;
+padding-right: 2px;
+background-color: #abb2bc;
+border: 1px solid #4c8932;
+}
+
+
+.progress {
+position:relative;
+display: block;
+height: 16px;
+background-color: #74d04c;
+border: 1px solid #4c8932;
+}
+.progress-text
+{	
+	position:relative;
+	margin-bottom:2px;
+	position:relative;
+	text-align:center;
+	font-size:16px;
+}
+.progress-bar-properties
+{
+	position: relative;
+	height: 18px;
+	padding-right: 2px;
+	background-color: #abb2bc;
+	border: 1px solid #900;
+}
+.progress-properties
+{
+	position: relative;
+	display: block;
+	height: 16px;
+	background-color: #F00;
+	border: 1px solid #900;	
+}
+
+#EditContent
+{
+	position:absolute;
+	width:auto;
+	height:auto;
+	margin-top:-15%;
+}
+.EditChar
+{	
+	background-color:#333;
+	position:absolute;
+	width:1000%;
+    height:auto;
+	border-radius:1%;
+	border:1px solid #CCC;
+	padding:1%;
+}
+.EditChar img
+{
+	position:relative;
+	width:auto;
+	height:auto;
+	margin: 2% auto;
+	border-radius:10%;
+	border:2px solid #CCC;
+	padding:%1;
+	display:flex;
+	justify-content: center;
+	
+}
+.EditPic
+{
+	background-color:#666;
+	position:relative;
+	width:90%;
+	height:auto;
+	margin: 2% auto;
+	border-radius:1%;
+	border:2px solid #CCC;
+	padding:1%;
+	display:flex;
+	justify-content: center;
+}
+#shopcontent
+{
+	position:relative;
+	margin-top:-15%;
+	margin-left:-20%;
+	
+}
+.shopequipment
+{
+	display:block;
+}
+.shoprequisites
+{
+	display:none;
+}
+.shoptransport
+{
+	display:none;
+}
+.shopbodyguards
+{
+	display:none;
+}
+.shopsupportteam
+{
+	display:none;
+}

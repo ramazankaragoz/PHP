@@ -1,29 +1,3 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+This web browser game is a MMORPG (Massively Multiplayer Online Role Playing Game)  and many users can play on internet with each other. MMORPG games can be played on Internet without installing or downloading big applications by using a web browser like (IE, Firefox, Chrome, Opera, Safari). In this game there are two opposite sides like Police & Gangster and each side can create their own team like squad and gang. Also they are fighting for some areas in map and capturing them. If one side capture all of the map along 24 hours that side wins some money and experience. The background of the project is written in PHP. The frontend of the project is developed with HTML, CSS, JavaScript and AJAX.The database of the project which hold the information is used in MYSQL.
